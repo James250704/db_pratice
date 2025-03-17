@@ -1,0 +1,20 @@
+<?php
+    //載入php檔案
+    require_once("db.php");
+    ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li><a href="select.php">SELECT, 列印出資料庫中的資料</a></li>
+        <li><a href="insert.php">INSERT, 新增資料到資料庫中</a></li>
+        <li><a href="update.php">UPDATE, 更新資料庫中的賳號密碼</a></li>
+        <li><a href="delete.php">DELETE, 刪除資料庫中的資料</a> </li>
+    </ul>
+</body>
+</html>
